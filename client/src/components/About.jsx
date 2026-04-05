@@ -7,7 +7,7 @@ export default function About() {
         <motion.div
           initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }} viewport={{ once: true }}>
-          <img src="https://placehold.co/400x400" alt="Profile" className="rounded-2xl w-full max-w-sm mx-auto shadow-md" />
+          <img src="/goldy.png" alt="Profile" className="rounded-2xl w-full max-w-sm mx-auto shadow-md" />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }}
@@ -20,9 +20,9 @@ export default function About() {
             I love solving complex problems, learning new technologies, and crafting user-friendly interfaces backed by robust APIs.
           </p>
           <div className="flex gap-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer"
+            <a href="https://github.com/goldy2307" target="_blank" rel="noreferrer"
               className="text-gray-700 border border-gray-300 px-4 py-2 rounded-md hover:bg-gray-50 transition font-medium">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer"
+            <a href="https://www.linkedin.com/in/goldy-lokhande/" target="_blank" rel="noreferrer"
               className="text-blue-600 border border-blue-200 px-4 py-2 rounded-md hover:bg-blue-50 transition font-medium">LinkedIn</a>
           </div>
         </motion.div>

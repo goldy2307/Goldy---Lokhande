@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-gray-900 tracking-tight">
-          &lt;YourName /&gt;
+          &lt;goldylokhande/&gt;
         </Link>
         {/* Desktop */}
         <ul className="hidden md:flex gap-8">

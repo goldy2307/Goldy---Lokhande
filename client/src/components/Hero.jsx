@@ -12,7 +12,7 @@ export default function Hero() {
         <motion.h1
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
-          Your Name
+          Goldy Lokhande
         </motion.h1>
         <motion.h2
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
