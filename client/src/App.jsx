@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import Cursor from './components/Cursor'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -7,9 +8,10 @@ import BlogPost from './pages/BlogPost'
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
+      <Cursor />
       <Navbar />
-      <main className="flex-1">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<BlogList />} />
@@ -17,6 +19,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </div>
+    </>
   )
 }
